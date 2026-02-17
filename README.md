@@ -3,7 +3,7 @@
 Aplikasi streaming film berbasis ReactJS. Dibuat sebagai bagian dari misi belajar implementasi `useState` dan manipulasi data array object (CRUD).
 
 # Live demo site
-(https://mission-2-fe-1-b-18101-zweta-tri-ra.vercel.app/)
+(https://mission-intermediate-frontend-2-fe.vercel.app/)
 
 ## Fitur CRUD
 
