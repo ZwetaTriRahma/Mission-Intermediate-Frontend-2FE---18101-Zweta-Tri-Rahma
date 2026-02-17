@@ -39,7 +39,7 @@ DELETE → filmTrending.filter()     menghapus data berdasarkan id
 ## Cara Menjalankan
 
 ```bash
-git clone https://github.com/ZwetaTriRahma/Mission-2FE-1B---18101-Zweta-Tri-Rahma.git
+git clone https://github.com/ZwetaTriRahma/Mission-Intermediate-Frontend-2FE---18101-Zweta-Tri-Rahma.git
 cd chill-movie-react2
 npm install
 npm run dev
