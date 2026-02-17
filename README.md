@@ -1,4 +1,4 @@
-# Chill Movie - Mission Intermediate 2FE B Implementasi (UseState & CRUD)
+# Chill Movie - Mission Intermediate FE 2B Implementasi (UseState & CRUD)
 
 Aplikasi streaming film berbasis ReactJS. Dibuat sebagai bagian dari misi belajar implementasi `useState` dan manipulasi data array object (CRUD).
 
