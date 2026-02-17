@@ -1,3 +1,49 @@
+# Chill Movie - Mission Intermediate 2FE B Implementasi (UseState & CRUD)
+
+Aplikasi streaming film berbasis ReactJS. Dibuat sebagai bagian dari misi belajar implementasi `useState` dan manipulasi data array object (CRUD).
+
+# Live demo site
+(https://mission-2-fe-1-b-18101-zweta-tri-ra.vercel.app/)
+
+## Fitur CRUD
+
+CRUD diimplementasikan di dua section pada Homepage (sesuai instruksi misi boleh 1-2 fitur saja tidak menyeluruh):
+
+```bash
+- Film Trending   → Tambah, Lihat, Edit, Hapus film
+- Rilis Baru      → Tambah, Lihat, Edit, Hapus film
+```
+
+## Implementasi useState
+
+```bash
+- filmTrending          → menyimpan data film trending
+- rilsBaru              → menyimpan data rilis baru
+- form                  → menyimpan input dari form
+- modalOpen             → mengontrol buka/tutup modal form
+- isEdit                → menentukan mode tambah atau edit
+- selectedFilm          → menyimpan film yang sedang diedit
+- konfirmasiOpen        → mengontrol buka/tutup modal hapus
+- filmYangAkanDihapus   → menyimpan film yang akan dihapus
+- toast                 → menampilkan notifikasi
+```
+
+## Operasi Array Object
+
+```bash
+GET    → films.map()               menampilkan semua data film
+ADD    → [...filmTrending, baru]   menambah data baru ke array
+UPDATE → filmTrending.map()        mengupdate data berdasarkan id
+DELETE → filmTrending.filter()     menghapus data berdasarkan id
+```
+## Cara Menjalankan
+
+```bash
+git clone https://github.com/ZwetaTriRahma/Mission-2FE-1B---18101-Zweta-Tri-Rahma.git
+cd chill-movie-react2
+npm install
+npm run dev
+```
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
